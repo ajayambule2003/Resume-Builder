@@ -1,2 +1,3 @@
 # Resume-Builder
-Resume Builder App with in MERN stack
+Resume Builder App with in MERN stack developement
+
