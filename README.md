@@ -10,7 +10,7 @@ Welcome to our Resume Builder Website! Our website allows users to easily create
 - Image upload for profile picture
 
 
-## Getting Started //
+## Getting Started 
 1. Clone this repository to your local machine 
 ```bash
 git clone https://github.com/ajayambule2003/Resume-Builder.git
