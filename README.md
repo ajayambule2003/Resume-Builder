@@ -9,7 +9,7 @@ Welcome to our Resume Builder Website! Our website allows users to easily create
 - Dark mode for easy viewing
 - Image upload for profile picture
 
-
+<!-- // -->
 ## Getting Started 
 1. Clone this repository to your local machine 
 ```bash
@@ -28,7 +28,6 @@ npm install
 npm run start
 ```
 5. Open http://localhost:3000 in your browser to see the application running
-
 
 
 ### Built With
