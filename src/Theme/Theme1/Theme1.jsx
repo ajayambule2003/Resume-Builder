@@ -111,7 +111,7 @@ const Theme1 = (props) => {
                         </Box>
                     </section>
 
-                    {/* WORK EXPERIENCE  */}
+                    {/* WORK EXPERIENCE */}
                     {
                         !checkWork &&
                         <section id="experience" className='my-2'>
