@@ -28,7 +28,7 @@ const UserDataCollect = () => {
             setPersonalData({ ...personalData, profileImage: URL.createObjectURL(e.target.files[0]) })
         }
     }
-    // To Add Project Data to the state  //
+    // To Add Project Data to the state 
     const handleChangeProject = (e) => {
         const { name, value, id } = e.target
         let tempProjectData = projectData

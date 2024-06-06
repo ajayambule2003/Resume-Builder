@@ -9,6 +9,7 @@ import Theme3 from '../../Theme/Theme3/Theme3';
 const Home = () => {
     const { currentTheme, showComponent, themeData, componentRef } = useContext(ResumeContext);
 
+    // Home page--> Themes
     return (
         <>
             {
