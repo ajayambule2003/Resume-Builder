@@ -12,7 +12,7 @@ const BuilderArea = (props) => {
     const handleSelectNewTemplate = () => {
         setShowComponent(!showComponent)
     }
-
+// Template
     return (
         <>
             {loading && <PropagateLoader id='spinner' color="#319795" size={30} />}
