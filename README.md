@@ -8,8 +8,9 @@ Welcome to our Resume Builder Website! Our website allows users to easily create
 - PDF export option for final resume
 - Dark mode for easy viewing
 - Image upload for profile picture
+ 
 
-<!-- // -->
+ 
 ## Getting Started 
 1. Clone this repository to your local machine 
 ```bash
