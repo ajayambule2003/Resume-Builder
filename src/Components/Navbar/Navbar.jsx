@@ -1,10 +1,11 @@
-import { Box, Flex, HStack, IconButton, useDisclosure, useColorModeValue, Stack } from '@chakra-ui/react';
-import { HamburgerIcon, CloseIcon } from '@chakra-ui/icons';
+import { Box, Flex, HStack, IconButton, useDisclosure, useColorMode, useColorModeValue, Stack, Button } from '@chakra-ui/react';
+import { HamburgerIcon, CloseIcon, MoonIcon, SunIcon } from '@chakra-ui/icons';
 import { Link as ReachLink } from 'react-router-dom'
 import logo from './../../Assets/logo.png';
 
 
 export default function Navbar() {
+    const { colorMode, toggleColorMode } = useColorMode();
     const { isOpen, onOpen, onClose } = useDisclosure();
 
     return (
@@ -23,6 +24,9 @@ export default function Navbar() {
                             <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none', bg: 'gray.200' }} to={'/'} >Home </ReachLink>
                             <ReachLink px={2} py={1} rounded={'md'} _hover={{ textDecoration: 'none', bg: 'gray.200' }} to={'/about'}> About</ReachLink>
                         </HStack>
+                        <Button onClick={toggleColorMode}>
+                            {colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
+                        </Button>
                     </HStack>
 
                     <IconButton

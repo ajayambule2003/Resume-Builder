@@ -2,8 +2,8 @@ import { Box, chakra, Container, Stack, Text, Image, useColorModeValue, Visually
 import { FaInstagram, FaSnapchat, FaGithub } from 'react-icons/fa';
 import logo from './../../Assets/logo.png';
 
-//
-const SocialButton = ({ children, label, href }) =>   {
+
+const SocialButton = ({ children, label, href }) => {
     return (
         <chakra.button
             bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}

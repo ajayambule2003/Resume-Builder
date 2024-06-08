@@ -19,7 +19,7 @@ const Theme3 = (props) => {
   const { educationTitles, educationDesc } = themeData.educationData;
   const { workTitles, workDesc } = themeData.workData;
   const { awards } = themeData.awardData;
-//
+
   return (
     <Box id="section-to-print" ref={componentRef}>
       <Box id="theme3" paddingBlock={10} paddingInline={20}>

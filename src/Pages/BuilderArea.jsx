@@ -7,12 +7,12 @@ import ResumeContext from '../Context/ResumeContext';
 import PropagateLoader from "react-spinners/PropagateLoader";
 
 const BuilderArea = (props) => {
-    const { showComponent, setShowComponent, loading } = useContext(ResumeContext)
+    const { showComponent, setShowComponent, loading, handlePrint } = useContext(ResumeContext)
 
     const handleSelectNewTemplate = () => {
         setShowComponent(!showComponent)
     }
-// Template
+
     return (
         <>
             {loading && <PropagateLoader id='spinner' color="#319795" size={30} />}
@@ -24,7 +24,7 @@ const BuilderArea = (props) => {
                 </div>
             </div>
             <div className="d-flex flex-wrap justify-content-center">
-                <Button className='mx-2 my-5' colorScheme={'teal'} variant={'outline'} >Print</Button>
+                <Button className='mx-2 my-5' colorScheme={'teal'} variant={'outline'} onClick={handlePrint}>Print</Button>
                 <Button className='mx-2 my-5' colorScheme={'teal'} variant={'outline'} onClick={handleSelectNewTemplate}>Select Another Template</Button>
             </div>
             <Footer />

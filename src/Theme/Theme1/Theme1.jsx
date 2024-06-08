@@ -143,7 +143,7 @@ const Theme1 = (props) => {
                             </Box>
                         </section>
                     }
-                    {/* Award & Achievement */}
+                    {/* Award & Achievement*/}
                     {
                         !checkAward &&
                         <section id="awards" className='my-2'>
